@@ -8,3 +8,5 @@ A curated list of 'anti-shortcut learning', 'combating spurious correlations/fea
 ## Methods
 - [Last Layer Re-Training is Sufficient for Robustness to Spurious Correlations, arXiv 2022](https://arxiv.org/pdf/2204.02937). Just last layer retraining on large ImageNet-trained models can significantly improve robustness. This potentially reduces the issue of spurious correlations to a linear problem.
 - [Domain-Adjusted Regression or: ERM May Already Learn Features Sufficient for Out-of-Distribution Generalization, arXiv 2022](https://arxiv.org/abs/2202.06856v1). It is argured that the current bottleneck is not feature learning, but robust regression. ERM produces features which are informative enough that a linear classifier on top of these frozen features is—in principle—capable of generalizing almost as well as if we had access to the test domain when training the entire network.
+- [Loss Function Learning for Domain Generalization by Implicit Gradient, ICML 2022](https://proceedings.mlr.press/v162/gao22b/gao22b.pdf).
+- [Learning Stable Classifiers by Transferring Unstable Features, ICML 2022](https://proceedings.mlr.press/v162/bao22a/bao22a.pdf). 
